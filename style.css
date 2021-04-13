@@ -1,0 +1,135 @@
+body {
+  background-color: #111725;
+  display: flex;
+  font-family: "Chivo";
+}
+
+.pod-logo {
+  position: absolute;
+  width: 134.85px;
+  height: 56px;
+  left: 165px;
+  top: 102px;
+}
+
+.container {
+  position: absolute;
+  width: 1275px;
+  height: 640px;
+  left: 165px;
+  top: 130px;
+}
+
+.host {
+  position: absolute;
+  width: 888px;
+  height: 640px;
+  left: 552px;
+  top: 130px;
+  bottom: 130px;
+  background-image: url("images/image-host.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.podcast-container {
+  position: absolute;
+  width: 723px;
+  height: 509px;
+  left: 165px;
+  top: 261px;
+  background: #121725;
+}
+
+.podcast-text {
+  /* position: absolute; */
+  width: 665px;
+  height: 421px;
+  left: 165px;
+  top: 349px;
+  padding-top: 60px;
+}
+
+h1 {
+  color: #54e6af;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 52px;
+  line-height: 62px;
+  font-weight: lighter;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 > span {
+  display: flex;
+  color: white;
+}
+
+.pc-para {
+  width: 435px;
+  padding-top: 25px;
+}
+
+p {
+  display: flex;
+  margin: 0;
+  color: #c2cbe5;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: lighter;
+}
+
+.email-box {
+  /* position: absolute; */
+  width: 427px;
+  height: 60px;
+  background: #2c344b;
+  border-radius: 28px;
+  margin-top: -150px;
+}
+
+.email-address {
+  position: absolute;
+  width: 95px;
+  height: 28px;
+  left: 32px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  font-size: 14px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+button {
+  position: absolute;
+  background-color: #54e6af;
+  border-radius: 28px;
+  border-style: none;
+  width: 162px;
+  height: 50px;
+  margin-left: 135px;
+  margin-top: -10px;
+}
+
+.podcast-logos {
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+  width: 536px;
+  height: 29px;
+  left: 165px;
+  top: 741px;
+}
+
+.spotify {
+  margin-right: 45px;
+}
+
+.apple {
+  margin-right: 45px;
+}
+
+.google {
+  margin-right: 45px;
+}
